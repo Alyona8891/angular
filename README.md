@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Angular 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Angular - training application.
 
-Currently, two official plugins are available:
+## Technology Stack 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- SCSS
+- Vite
 
-## Expanding the ESLint configuration
+## Used npm packages
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ - font-awesome
 
-- Configure the top-level `parserOptions` property like this:
+## Setup instructions
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository from GitHub. For example, use command **git clone https://github.com/Alyona8891/angular.git** in terminal.
+2. Open folder angular in cloned angular.
+3. Install the required dependencies using command **npm install** in terminal.
+4. Start the server using command **npm run dev** in terminal.
+5. Access the application by navigating to address specified in the terminal, for example http://localhost:5173.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Available Scripts
+
+- **dev**: start the development server using Vite;
+- **build**: run TypeScript compiler and then build the project using Vite;
+- **preview**: start a local server to preview the built project;
+- **lint**: run ESLint to check for eslint errors in TypeScript and TypeScript React files;
+
+## Developer
+
+- [Alyona8891](https://github.com/alyona8891)
